@@ -1,0 +1,131 @@
+.loginScreenBackground{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://handoff-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-l.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.loginScreen{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.959));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginContainer{    
+    color: white;
+    margin-top: -100px;
+}
+.loginContainer input{
+
+}
+.loginContainer button{
+    
+}
+h1{ 
+    margin: 0;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 20px;        
+    margin: 0;
+    font-weight: 200;
+}
+h3{
+    font-size: 14px;        
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.loginSearch{
+    padding: 10px;
+    height: 50px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 10px;
+}
+.loginSearch input{
+    height: 100%;
+    vertical-align: top;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    width: calc(100% - 80px);
+    padding: 0 10px;
+}
+.loginSearch button{
+    height: 100%;
+    vertical-align: top;
+    outline: none;
+    border: none;
+    width: 80px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginSearch button:hover{
+    background-color: rgb(255, 105, 105);
+}
+.loginWindow{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    position: absolute;    
+    width: 450px;    
+    color: white;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    margin-top: -100px;
+}
+.loginWindow h1{
+    font-size: 20px;
+}
+.loginWindow input{
+    height: 32px;
+    background-image: linear-gradient(white, rgb(209, 209, 209));
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 4px;    
+    padding: 0 10px;
+    width: 80%;
+    outline: none;
+    border: none;
+}
+
+.loginWindow button{
+    width: 80%;
+    height: 34px;
+    margin-top: 10px;
+    background-color: rgb(255, 51, 24);
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.loginWindow button:hover{
+    background-color: rgb(255, 94, 72);
+    box-shadow: 0 0 20px rgb(255, 51, 24);
+}
+.loginBottomText{
+    font-size: 11px;
+    margin-top: 10px;
+    color: rgb(201, 201, 201);    
+}
+.loginScreen a{
+    padding: 5px;
+    color: white;    
+    cursor: pointer;
+}
+.loginScreen a:hover{
+    text-decoration: underline;
+}
+.loginErrorMessage{
+    font-size: 14px;
+    color: rgb(255, 235, 235);
+    margin-top: 10px;
+}

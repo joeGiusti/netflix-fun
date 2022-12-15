@@ -1,0 +1,70 @@
+.rowContainer{
+    width: calc(100vw - 40px);    
+    color: white;
+    position: relative;
+}
+.row{
+    display: flex;
+    margin-left: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    min-height: 120px;
+}
+.row::-webkit-scrollbar{
+    display: none;
+}
+.moviePoster{
+    min-width: 220px;    
+    height: 120px;
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.moviePoster img{
+    width: 100%;
+}
+.moviePoster:hover{
+    transform: scale(1.08);
+}
+.posterLarge{
+    min-width: 180px;    
+    height: 260px;
+}
+.movieTitle{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+}
+.left{
+    left: 30px;
+}
+.right{
+    right: -10px;
+}
+.scrollArrow{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.651);
+    border-radius: 3px;
+    height: 40px;
+    width: 30px;
+    top: calc(50% - 20px);    
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.scrollArrow:hover{
+    box-shadow: 0 0 10px white;
+}
+.rowTitle{
+    text-align: left;
+    padding-left: 60px;
+    margin-bottom: -10px;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
